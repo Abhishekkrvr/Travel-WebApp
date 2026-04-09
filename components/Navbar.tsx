@@ -27,7 +27,7 @@ const Navbar = () => {
           <li key={key}>
             <Link
               href={href}
-              className="text-black hover:text-gray-700 transition-all hover:font-extrabold"
+              className="text-black transition-all hover:font-extrabold hover:text-green-500"
             >
               {label}
             </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Desktop Button */}
       <div className="hidden md:block">
-        <button className="flex items-center gap-2 bg-gray-900 text-white px-5 py-2 rounded-full hover:bg-green-600 border-4 border-gray-200">
+        <button className="flex items-center gap-2 bg-gray-900 text-white px-5 py-3 rounded-full hover:bg-green-600 border-4 border-gray-200">
           <Image src="/user.svg" alt="user" width={20} height={20} />
           <span className="font-bold">Log in</span>
         </button>
@@ -62,7 +62,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <button className="flex items-center gap-2 bg-gray-900 text-white px-5 py-2 rounded-full hover:bg-green-600 border-4 border-gray-200">
+          <button className="flex items-center gap-2 bg-gray-900 text-white px-5 py-3 rounded-full hover:bg-green-600 border-4 border-gray-200">
             <Image src="/user.svg" alt="user" width={20} height={20} />
             <span className="font-bold">Log in</span>
           </button>

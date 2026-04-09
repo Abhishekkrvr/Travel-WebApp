@@ -27,7 +27,7 @@ export const FEATURES = [
     title: "Adventure Scheduling",
     icon: "/calendar.svg",
     variant: "green",
-    description: "Plan trips and manage schedules بسهولة.",
+    description: "Plan trips and manage schedules.",
   },
   {
     title: "AR Navigation",

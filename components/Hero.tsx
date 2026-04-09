@@ -86,7 +86,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start mt-10 xl:mt-0">
+      <div className="relative flex flex-1 items-start mt-1 xl:mt-0">
         <div className="relative z-20 w-50 flex flex-col gap-4 rounded-2xl bg-gray-900 py-4 px-5 shadow-lg">
           <div className="flexBetween">
             <p className="regular-16 text-gray-400">Location</p>
