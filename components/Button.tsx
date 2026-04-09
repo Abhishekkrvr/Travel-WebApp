@@ -1,41 +1,23 @@
 import Image from "next/image";
-import { ButtonHTMLAttributes } from "react";
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+type ButtonProps = {
+  type: "button" | "submit";
   title: string;
   icon?: string;
-  variant?: "primary" | "outline" | "ghost";
+  variant: string;
   full?: boolean;
 };
 
-const Button = ({
-  type = "button",
-  title,
-  icon,
-  variant = "primary",
-  full = false,
-  className = "",
-  ...props
-}: ButtonProps) => {
-  const variants = {
-    primary: "bg-green-500 text-white border-green-500",
-    outline: "border-white text-white",
-    ghost: "text-white border-transparent",
-  };
-
+const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
     <button
+      className={`flexCenter gap-3 rounded-full border ${variant} ${full && "w-full"}`}
       type={type}
-      className={`
-        flex items-center justify-center gap-3 rounded-full border
-        ${variants[variant]}
-        ${full ? "w-full" : ""}
-        ${className}
-      `}
-      {...props}
     >
       {icon && <Image src={icon} alt={title} width={24} height={24} />}
-      <span className="font-semibold whitespace-nowrap">{title}</span>
+      <label className="bold-16 whitespace-nowrap cursor-pointer">
+        {title}
+      </label>
     </button>
   );
 };

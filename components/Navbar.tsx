@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between relative z-30 py-4 px-6 md:px-12">
+    <nav className="flex items-center justify-between relative z-30 py-4 px-6 md:px-12 lg:px-20 md:py-6">
       {/* Logo */}
       <Link href="/">
         <Image
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="hidden md:block">
         <button className="flex items-center gap-2 bg-gray-900 text-white px-5 py-2 rounded-full hover:bg-green-600 border-4 border-gray-200">
           <Image src="/user.svg" alt="user" width={20} height={20} />
-          <span>Log in</span>
+          <span className="font-bold">Log in</span>
         </button>
       </div>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
 
           <button className="flex items-center gap-2 bg-gray-900 text-white px-5 py-2 rounded-full hover:bg-green-600 border-4 border-gray-200">
             <Image src="/user.svg" alt="user" width={20} height={20} />
-            <span>Log in</span>
+            <span className="font-bold">Log in</span>
           </button>
         </div>
       )}
