@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -19,7 +18,7 @@ const Hero = () => {
           height={29}
         />
 
-        <h1 className="text-4xl font-extrabold text-gray-900 sm:text-6xl md:text-5xl lg:text-6xl leading-tight">
+        <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-5xl lg:text-6xl leading-tight">
           Putuk Truno Camp Area
         </h1>
 
@@ -41,7 +40,7 @@ const Hero = () => {
               />
             ))}
           </div>
-          <span className="text-sm text-gray-600">50k+ (Reviews)</span>
+          <span className="text-sm text-gray-600">173k+ (Users Reviews)</span>
         </div>
 
         {/* Buttons */}
