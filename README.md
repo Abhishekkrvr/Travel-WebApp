@@ -1,3 +1,5 @@
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 12 58 03" src="https://github.com/user-attachments/assets/7fa7f745-3072-4dac-9321-32abd635aeb9" />
+
 # 🌍 Travel WebApp
 
 A modern **Next.js + Tailwind CSS** travel web application designed to showcase destinations, itineraries, and travel experiences with a clean, responsive UI. Built for speed, accessibility, and scalability.
