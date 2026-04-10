@@ -19,12 +19,13 @@ const Hero = () => {
         />
 
         <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-5xl lg:text-6xl leading-tight">
-          Putuk Truno Camp Area
+        Glacier Point Camp Area
         </h1>
 
         <p className="mt-6 text-sm text-gray-600 sm:text-sm md:text-lg lg:text-lg">
-          Putuk Truno Camp Area is a camping ground located in the heart of
-          nature, offering a serene and peaceful environment.
+          Glacier Point Camp Area is a camping ground located in the heart of
+          nature, offering a serene and peaceful environment. The camp provides
+          a perfect spot for those seeking relaxation and adventure.
         </p>
 
         {/* Rating */}
@@ -40,7 +41,9 @@ const Hero = () => {
               />
             ))}
           </div>
-          <span className="text-sm text-gray-600">173k+ (Users Reviews)</span>
+          <span className="text-sm text-gray-600">
+            173k+ (Excellent Reviews)
+          </span>
         </div>
 
         {/* Buttons */}
@@ -91,7 +94,7 @@ const Hero = () => {
             <p className="regular-16 text-gray-400">Location</p>
             <Image src="/close.svg" alt="Close" width={20} height={20} />
           </div>
-          <p className="bold-18 text-white">Putuk Truno</p>
+          <p className="bold-18 text-white">Glacier Point</p>
           <div className="flexBetween">
             <div className="flex flex-col">
               <p className="regular-16 text-gray-400">Distance</p>

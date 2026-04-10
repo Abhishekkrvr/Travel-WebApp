@@ -55,7 +55,7 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-85 w-full items-start justify-start gap-8 overflow-x-auto lg:h-100 xl:h-160">
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
+          title="Glacier Point Camp"
           subtitle="Prigen, Pasuruan"
           peopleJoined="50+ Joined"
         />
