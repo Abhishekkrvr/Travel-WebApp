@@ -26,12 +26,4 @@ A modern **Next.js + Tailwind CSS** travel web application designed to showcase 
    cd Travel-WebApp
 
 
-npm install
-# or
-yarn install
-
-
-npm run dev
-# or
-yarn dev
 
