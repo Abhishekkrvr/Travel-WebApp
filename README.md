@@ -19,7 +19,6 @@ A modern **Next.js + Tailwind CSS** travel web application designed to showcase 
 ---
 
 ## 🛠️ Getting Started
-
 1. **Clone the repo**
    ```bash
    git clone https://github.com/Abhishekkrvr/Travel-WebApp.git
