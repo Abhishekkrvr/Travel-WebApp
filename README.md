@@ -1,5 +1,4 @@
 ![travel](https://github.com/user-attachments/assets/54b9b9f1-6734-43cc-a2f9-88f1fdc080e8)
-<img width="1440" height="900" alt="Screenshot 2026-04-10 at 12 58 03" src="https://github.com/user-attachments/assets/7fa7f745-3072-4dac-9321-32abd635aeb9" />
 
 # 🌍 Travel WebApp
 
