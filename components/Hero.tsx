@@ -19,7 +19,7 @@ const Hero = () => {
         />
 
         <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-5xl lg:text-6xl leading-tight">
-        Glacier Point Camp Area
+        Glacier Point Camp Area.
         </h1>
 
         <p className="mt-6 text-sm text-gray-600 sm:text-sm md:text-lg lg:text-lg">
@@ -68,7 +68,7 @@ const Hero = () => {
           </button>
 
           <button className="group flexCenter gap-2 rounded-full border border-gray-300 bg-white py-3 px-6 text-gray-900 transition-colors duration-300 hover:bg-gray-900 hover:text-white overflow-hidden">
-            <span className="font-medium hover:font-bold">Details</span>
+            <span className="font-medium hover:font-bold">View Details</span>
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
